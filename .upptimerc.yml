@@ -21,8 +21,8 @@ sites:
       - "Authorization: Bearer $SUPABASE_ANON_KEY"
 
 status-website:
-  cname: status.serenaid.app
   name: Serenaid Status
+  baseUrl: /serenaid-status
   introTitle: "**Serenaid** est actuellement opérationnel"
   introMessage: Cette page affiche l'état en temps réel de tous les services Serenaid.
   navbar:
