@@ -22,7 +22,8 @@ sites:
 
 status-website:
   name: Serenaid Status
-  baseUrl: /serenaid-status
+  baseUrl: /
+  cname: status.serenaid.app
   introTitle: "**Serenaid** est actuellement opérationnel"
   introMessage: Cette page affiche l'état en temps réel de tous les services Serenaid.
   navbar:
