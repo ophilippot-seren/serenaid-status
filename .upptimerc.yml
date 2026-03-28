@@ -2,37 +2,41 @@ owner: ophilippot-seren
 repo: serenaid-status
 
 sites:
-  - name: Serenaid App
-    url: https://serenaid.app
+  - name: Serenaid (Frontend)
+    url: https://serenaid.fr
+    expectedStatusCodes:
+      - 200
+      - 301
 
-  - name: API Health
-    url: https://dowgbbuckuxjjuxckemi.supabase.co/functions/v1/serenaid-core/health/ping
-    headers:
-      - "Authorization: Bearer $SUPABASE_ANON_KEY"
+  - name: API Hono
+    url: https://serenaid.fr/api/health
 
-  - name: Database
-    url: https://dowgbbuckuxjjuxckemi.supabase.co/functions/v1/serenaid-core/health/db
-    headers:
-      - "Authorization: Bearer $SUPABASE_ANON_KEY"
+  - name: Authentification (GoTrue)
+    url: https://serenaid.fr/auth/v1/settings
 
-  - name: Notification Scheduler
-    url: https://dowgbbuckuxjjuxckemi.supabase.co/functions/v1/serenaid-core/health/scheduler
+  - name: Recherche Professionnels
+    url: https://serenaid.fr/api/search/analyze-prompt
+    method: POST
     headers:
-      - "Authorization: Bearer $SUPABASE_ANON_KEY"
+      - "Content-Type: application/json"
+    body: '{"prompt":"orthophoniste paris"}'
+    expectedStatusCodes:
+      - 200
+      - 401
 
 status-website:
   name: Serenaid Status
   baseUrl: /
-  cname: status.serenaid.app
+  cname: status.serenaid.fr
   introTitle: "**Serenaid** est actuellement opérationnel"
   introMessage: Cette page affiche l'état en temps réel de tous les services Serenaid.
   navbar:
     - title: Serenaid
-      href: https://serenaid.app
+      href: https://serenaid.fr
 
 notifications:
   - type: email
-    address: contact@serenaid.app
+    address: contact@serenaid.fr
 
 workflowSchedule:
   uptime: "*/5 * * * *"
@@ -44,3 +48,13 @@ i18n:
   activeIncidents: Incidents en cours
   allSystemsOperational: Tous les systèmes sont opérationnels
   incidentReport: "Rapport d'incident pour $site"
+  incidentFixed: Résolu
+  incidentOngoing: En cours
+  incidentScheduled: Planifié
+  pastIncidents: Incidents passés
+  responseTime: Temps de réponse
+  uptime: Disponibilité
+  uptimeDay: 24 heures
+  uptimeWeek: 7 jours
+  uptimeMonth: 30 jours
+  uptimeYear: 1 an
