@@ -58,3 +58,6 @@ i18n:
   uptimeWeek: 7 jours
   uptimeMonth: 30 jours
   uptimeYear: 1 an
+
+skipGenerating:
+  - .github/workflows/update-template.yml
