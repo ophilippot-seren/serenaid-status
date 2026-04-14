@@ -61,3 +61,10 @@ i18n:
 
 skipGenerating:
   - .github/workflows/update-template.yml
+  - .github/workflows/uptime.yml
+  - .github/workflows/response-time.yml
+  - .github/workflows/graphs.yml
+  - .github/workflows/setup.yml
+  - .github/workflows/site.yml
+  - .github/workflows/summary.yml
+  - .github/workflows/updates.yml
