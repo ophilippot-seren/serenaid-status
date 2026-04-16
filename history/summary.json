@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 918,
-    "timeDay": 918,
-    "timeWeek": 918,
-    "timeMonth": 918,
-    "timeYear": 918,
+    "time": 1680,
+    "timeDay": 1680,
+    "timeWeek": 1680,
+    "timeMonth": 1680,
+    "timeYear": 1680,
     "dailyMinutesDown": {}
   },
   {
@@ -22,18 +22,20 @@
     "url": "https://serenaid.fr/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/serenaid.fr.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.64%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
     "time": 1977,
     "timeDay": 1977,
     "timeWeek": 1977,
     "timeMonth": 1977,
     "timeYear": 1977,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-16": 0
+    }
   },
   {
     "name": "Authentification",
@@ -46,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 577,
-    "timeDay": 577,
-    "timeWeek": 577,
-    "timeMonth": 577,
-    "timeYear": 577,
+    "time": 1556,
+    "timeDay": 1556,
+    "timeWeek": 1556,
+    "timeMonth": 1556,
+    "timeYear": 1556,
     "dailyMinutesDown": {}
   }
 ]
