@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1531,
-    "timeDay": 1531,
-    "timeWeek": 1531,
-    "timeMonth": 1531,
-    "timeYear": 1531,
+    "time": 1408,
+    "timeDay": 1408,
+    "timeWeek": 1408,
+    "timeMonth": 1408,
+    "timeYear": 1408,
     "dailyMinutesDown": {}
   },
   {
@@ -22,19 +22,19 @@
     "url": "https://serenaid.fr/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/serenaid.fr.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "68.86%",
-    "uptimeDay": "68.86%",
-    "uptimeWeek": "68.86%",
-    "uptimeMonth": "68.86%",
-    "uptimeYear": "68.86%",
-    "time": 1733,
-    "timeDay": 1733,
-    "timeWeek": 1733,
-    "timeMonth": 1733,
-    "timeYear": 1733,
+    "status": "up",
+    "uptime": "60.32%",
+    "uptimeDay": "60.32%",
+    "uptimeWeek": "60.32%",
+    "uptimeMonth": "60.32%",
+    "uptimeYear": "60.32%",
+    "time": 1414,
+    "timeDay": 1414,
+    "timeWeek": 1414,
+    "timeMonth": 1414,
+    "timeYear": 1414,
     "dailyMinutesDown": {
-      "2026-04-16": 44
+      "2026-04-16": 64
     }
   },
   {
@@ -43,18 +43,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/serenaid.fr.ico",
     "slug": "authentification",
     "status": "up",
-    "uptime": "95.36%",
-    "uptimeDay": "95.36%",
-    "uptimeWeek": "95.36%",
-    "uptimeMonth": "95.36%",
-    "uptimeYear": "95.36%",
-    "time": 3618,
-    "timeDay": 3618,
-    "timeWeek": 3618,
-    "timeMonth": 3618,
-    "timeYear": 3618,
-    "dailyMinutesDown": {
-      "2026-04-16": 7
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 3037,
+    "timeDay": 3037,
+    "timeWeek": 3037,
+    "timeMonth": 3037,
+    "timeYear": 3037,
+    "dailyMinutesDown": {}
   }
 ]
