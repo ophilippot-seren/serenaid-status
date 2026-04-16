@@ -2,34 +2,24 @@ owner: ophilippot-seren
 repo: serenaid-status
 
 sites:
-  - name: Serenaid (Frontend)
+  - name: Site web
     url: https://serenaid.fr
     expectedStatusCodes:
       - 200
       - 301
 
-  - name: API Hono
+  - name: API
     url: https://serenaid.fr/api/health
 
-  - name: Authentification (GoTrue)
+  - name: Authentification
     url: https://serenaid.fr/auth/v1/settings
-
-  - name: Recherche Professionnels
-    url: https://serenaid.fr/api/search/analyze-prompt
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"prompt":"orthophoniste paris"}'
-    expectedStatusCodes:
-      - 200
-      - 401
 
 status-website:
   name: Serenaid Status
   baseUrl: /
   cname: status.serenaid.fr
   introTitle: "**Serenaid** est actuellement opérationnel"
-  introMessage: Cette page affiche l'état en temps réel de tous les services Serenaid.
+  introMessage: Cette page affiche l'état en temps réel des services Serenaid.
   navbar:
     - title: Serenaid
       href: https://serenaid.fr
