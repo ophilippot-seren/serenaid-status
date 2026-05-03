@@ -1,7 +1,7 @@
 url: https://serenaid.fr/api/health
-status: down
-code: 503
-responseTime: 160
-lastUpdated: 2026-05-03T14:30:42.554Z
+status: up
+code: 200
+responseTime: 119
+lastUpdated: 2026-05-03T14:33:30.994Z
 startTime: 2026-04-16T08:26:31.603Z
 generator: Upptime <https://github.com/upptime/upptime>
