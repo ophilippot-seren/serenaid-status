@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/serenaid.fr.ico",
     "slug": "site-web",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.51%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 730,
-    "timeDay": 703,
-    "timeWeek": 703,
-    "timeMonth": 717,
+    "timeDay": 724,
+    "timeWeek": 711,
+    "timeMonth": 713,
     "timeYear": 730,
-    "dailyMinutesDown": {
-      "2026-06-03": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "API",
@@ -25,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/serenaid.fr.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "99.44%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.98%",
+    "uptime": "99.45%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "99.39%",
-    "uptimeYear": "99.44%",
-    "time": 330,
-    "timeDay": 457,
-    "timeWeek": 444,
-    "timeMonth": 453,
-    "timeYear": 330,
+    "uptimeYear": "99.45%",
+    "time": 331,
+    "timeDay": 453,
+    "timeWeek": 449,
+    "timeMonth": 463,
+    "timeYear": 331,
     "dailyMinutesDown": {
       "2026-04-16": 64,
       "2026-04-17": 19,
@@ -43,8 +41,7 @@
       "2026-05-05": 73,
       "2026-05-06": 47,
       "2026-05-09": 60,
-      "2026-05-26": 29,
-      "2026-06-03": 2
+      "2026-05-26": 29
     }
   },
   {
@@ -54,17 +51,15 @@
     "slug": "authentification",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 290,
-    "timeDay": 448,
-    "timeWeek": 434,
-    "timeMonth": 405,
-    "timeYear": 290,
-    "dailyMinutesDown": {
-      "2026-06-03": 1
-    }
+    "time": 291,
+    "timeDay": 453,
+    "timeWeek": 440,
+    "timeMonth": 414,
+    "timeYear": 291,
+    "dailyMinutesDown": {}
   }
 ]
